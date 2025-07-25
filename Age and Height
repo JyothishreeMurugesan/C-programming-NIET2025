@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int age;
+    float height;
+    scanf(" %d ",&age);
+    scanf(" %f ",&height);
+    printf("Age: %d years\n",age);
+    printf("Height: %.1f cm",height);
+}
