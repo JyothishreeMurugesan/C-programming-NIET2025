@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    char b;
+    char c;
+    scanf(" %c",&c);
+    scanf(" %d",&a);
+    scanf(" %c",&b);
+    printf("Section: %c\n",c);
+    printf("Roll Number: %d\n",a);
+    printf("Blood Group: %c", b);
+}
