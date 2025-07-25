@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    long a,b;
+    scanf("%ld",&a);
+    scanf("%ld",&b);
+    printf("Distance 1: %ld\n",a);
+    printf("Distance 2: %ld",b);
+}
