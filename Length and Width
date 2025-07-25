@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    float length,width,area;
+    scanf(" %f ",&length);
+    scanf(" %f ",&width);
+    area = length*width;
+    printf("%.2f",area);
+}
