@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int n,d;
+    if(scanf("%d %d",&n,&d)!=2)
+    {
+        printf("Invalid input");
+    }
+    else
+    {
+        int a,b;
+        a=n/d;
+        b=n%d;
+        printf("%d,%d",a,b);  
+    } 
+}
