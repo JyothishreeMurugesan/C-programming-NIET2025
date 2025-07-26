@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int rad(float degree)
+{
+    float radian;
+    radian=degree*(3.14/180);
+    printf("%.2f",radian);
+   
+
+}
+int main()
+{
+    float degree,radian;
+    scanf("%f",&degree);
+    rad(degree);
+    
+}
