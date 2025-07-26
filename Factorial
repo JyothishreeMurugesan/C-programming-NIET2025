@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+long int factorial(int n)
+{
+    if(n == 1|| n == 0)
+    {
+        return 1;
+    }
+   
+    else 
+    {
+        
+        return n*factorial(n-1);   
+        
+    }
+}
+
+int main()
+{
+    int n;
+    long int a;
+    scanf("%d",&n);
+    if(n>=0)
+    {
+    a=factorial(n);
+    printf("%ld\n",a);
+}
+else
+{
+    printf("Invalid input");
+    return 0;
+}
+}
